@@ -9,12 +9,12 @@ const caseStudies = [
   {
     title: "Rakuten Taps StackOrbit to Build Cloud-Native Euro Bank",
     subtitle: "Why StackOrbit? Cloud on-demand and compliant, and truly minimal management.",
-    image: "/professional-businesswoman-working-at-modern-offic.jpg",
+    image: "/images/case-study-rakuten.jpg",
   },
   {
     title: "Leading Telecom Provider Launches Sovereign Cloud Platform",
     subtitle: "Full infrastructure control, multi-region deployment, and complete data sovereignty.",
-    image: "/modern-data-center-server-room-cloud-infrastructur.jpg",
+    image: "/images/case-study-telecom.jpg",
   },
 ]
 
@@ -30,9 +30,9 @@ export function CaseStudiesCarousel() {
   }
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background" aria-label="Customer case studies">
       <div className="container mx-auto max-w-7xl">
-        <div className="relative">
+        <div className="relative" role="region" aria-roledescription="carousel" aria-label="Case studies carousel">
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}

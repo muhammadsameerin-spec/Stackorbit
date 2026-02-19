@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
 import { Github, Linkedin, Twitter, Youtube } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
@@ -56,21 +55,16 @@ export function Footer() {
   }
 
   return (
-    <footer className="border-t border-border/40 bg-slate-50 dark:bg-slate-950">
+    <footer className="border-t border-border/40 bg-slate-50 dark:bg-slate-950" aria-label="Site footer">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8 lg:gap-12">
           {/* Logo and Description */}
           <div className="col-span-2">
-            <Link href="/" className="flex items-center mb-5">
-              <Image
-                src="/stackorbit-logo.png"
-                alt="StackOrbit Logo"
-                width={160}
-                height={40}
-                className="h-9 w-auto"
-                style={{ mixBlendMode: 'multiply' }}
-              />
+            <Link href="/" className="flex items-center mb-5" aria-label="StackOrbit - Home">
+              <span className="text-xl font-bold text-foreground tracking-tight">
+                Stack<span className="text-primary">Orbit</span>
+              </span>
             </Link>
             <p className="text-sm text-muted-foreground mb-6 max-w-xs leading-relaxed">
               {t('footer.description')}
@@ -81,30 +75,38 @@ export function Footer() {
               <Link 
                 href="https://github.com/stackorbit" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
+                aria-label="StackOrbit on GitHub"
               >
-                <Github size={18} />
+                <Github size={18} aria-hidden="true" />
               </Link>
               <Link 
                 href="https://twitter.com/stackorbit" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
+                aria-label="StackOrbit on Twitter"
               >
-                <Twitter size={18} />
+                <Twitter size={18} aria-hidden="true" />
               </Link>
               <Link 
                 href="https://linkedin.com/company/stackorbit" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
+                aria-label="StackOrbit on LinkedIn"
               >
-                <Linkedin size={18} />
+                <Linkedin size={18} aria-hidden="true" />
               </Link>
               <Link 
                 href="https://youtube.com/@stackorbit" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
+                aria-label="StackOrbit on YouTube"
               >
-                <Youtube size={18} />
+                <Youtube size={18} aria-hidden="true" />
               </Link>
             </div>
 

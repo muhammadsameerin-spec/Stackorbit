@@ -23,7 +23,6 @@ import {
   Sparkles
 } from "lucide-react"
 import { useState, useEffect, useRef, useCallback } from "react"
-import { TARSChatWidget } from "@/components/tars-chat-widget"
 import { InteractiveCloudDemo } from "@/components/interactive-cloud-demo"
 import { CaseStudiesCarousel } from "@/components/case-studies-carousel"
 import { RotatingText } from "@/components/rotating-text"
@@ -166,6 +165,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
+      <main id="main-content">
 
       {/* Hero Section */}
       <section className="pt-10 pb-6 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
@@ -219,17 +219,20 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Architecture Diagram - Interactive */}
+          {/* Architecture Diagram */}
           <div className="relative max-w-5xl mx-auto">
-            <div className="absolute -inset-4 bg-gradient-to-br from-purple-500/15 via-violet-500/10 to-indigo-500/15 rounded-3xl blur-2xl pointer-events-none" />
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-purple-500/10 border border-white/10 aspect-[16/9]">
-              <iframe
-                src="/interactive/stackorbit-cmp-flow.html"
-                title="StackOrbit CMP - Unified Sovereign Cloud Platform Architecture"
-                className="w-full h-full border-0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
-                loading="lazy"
-              />
+            <div className="absolute -inset-4 bg-gradient-to-br from-purple-500/15 via-violet-500/10 to-indigo-500/15 rounded-3xl blur-2xl pointer-events-none" aria-hidden="true" />
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-purple-500/10 border border-white/10 aspect-[16/9] bg-gradient-to-br from-slate-900 to-slate-800 flex items-center justify-center">
+              <div className="text-center p-8">
+                <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto mb-6">
+                  {["StackBill", "StackWatch", "StackObject", "StackVault", "TARS AI", "Integrations"].map((item) => (
+                    <div key={item} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 text-center">
+                      <span className="text-white text-sm font-medium">{item}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-white/60 text-sm font-light">Unified Sovereign Cloud Platform Architecture</p>
+              </div>
             </div>
           </div>
         </div>
@@ -246,14 +249,15 @@ export default function HomePage() {
               Join the service providers who have transformed their cloud business.
             </p>
 
-            <div className="flex flex-wrap justify-center items-center gap-12">
+            <div className="flex flex-wrap justify-center items-center gap-12" role="list" aria-label="Trusted customers">
               {customers.map((customer) => (
-                <img
-                  key={customer.name}
-                  src={customer.logo || "/placeholder.svg"}
-                  alt={customer.name}
-                  className="h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
-                />
+                <div key={customer.name} role="listitem">
+                  <img
+                    src={customer.logo || "/placeholder.svg"}
+                    alt={`${customer.name} logo`}
+                    className="h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                  />
+                </div>
               ))}
             </div>
           </div>
@@ -287,6 +291,8 @@ export default function HomePage() {
                 <button
                   key={product.id}
                   onClick={() => setActiveProduct(index)}
+                  aria-pressed={activeProduct === index}
+                  aria-label={`View ${product.name} - ${product.tagline}`}
                   className={`flex-shrink-0 lg:flex-shrink text-left transition-all px-4 py-3 rounded-xl ${
                     activeProduct === index 
                       ? "bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-lg shadow-purple-500/20" 
@@ -294,7 +300,7 @@ export default function HomePage() {
                   }`}
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-sm font-bold opacity-60">{String(index + 1).padStart(2, '0')}</span>
+                    <span className="text-sm font-bold opacity-60" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
                     <span className="text-sm font-semibold whitespace-nowrap">{product.name}</span>
                   </div>
                 </button>
@@ -827,8 +833,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      </main>
       <Footer />
-      <TARSChatWidget />
     </div>
   )
 }
