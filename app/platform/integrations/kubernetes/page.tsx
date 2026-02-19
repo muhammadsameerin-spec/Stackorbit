@@ -490,7 +490,7 @@ export default function KubernetesIntegrationPage() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/images/kubernetes-self-healing.jpg"
+                  src="/placeholder.svg"
                   alt="Kubernetes Self-Healing Architecture"
                   width={600}
                   height={400}

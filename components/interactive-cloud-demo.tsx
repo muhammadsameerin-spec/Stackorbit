@@ -188,7 +188,7 @@ export function InteractiveCloudDemo() {
   }
 
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8">
+    <section className="py-12 px-4 sm:px-6 lg:px-8" aria-label="Interactive cloud platform demo">
       <div className="container mx-auto flex justify-center" style={{ maxWidth: '1400px' }}>
         <div className="relative bg-gradient-to-br from-[#0A2E3E] to-[#143D52] rounded-3xl p-6 md:p-8 overflow-hidden w-[78%]" style={{ maxHeight: '764px' }}>
           {/* Decorative background elements */}
@@ -207,9 +207,9 @@ export function InteractiveCloudDemo() {
                       {isTyping && <span className="inline-block w-0.5 h-5 bg-accent ml-1 animate-pulse" />}
                     </div>
                   </div>
-                  <button className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 bg-gray-900 hover:bg-gray-800 rounded-full flex items-center justify-center transition-colors">
+                  <div className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 bg-gray-900 rounded-full flex items-center justify-center" aria-hidden="true">
                     <ArrowRight className="text-white" size={20} />
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -244,9 +244,9 @@ export function InteractiveCloudDemo() {
                       </div>
                       <span className="text-white font-semibold text-xs sm:text-base truncate">{scenario.title}</span>
                     </div>
-                    <Button size="sm" className="bg-accent hover:bg-accent/90 text-white text-xs sm:text-sm px-2 sm:px-4">
+                    <span className="bg-accent text-white text-xs sm:text-sm px-2 sm:px-4 py-1 rounded-md font-medium" aria-hidden="true">
                       Deploy Now
-                    </Button>
+                    </span>
                   </div>
 
                   {/* App Content */}

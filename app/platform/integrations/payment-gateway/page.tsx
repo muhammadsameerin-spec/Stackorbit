@@ -678,7 +678,7 @@ export default function PaymentGatewayIntegrationPage() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/images/payment-global-coverage.jpg"
+                  src="/placeholder.svg"
                   alt="Global Payment Coverage"
                   width={600}
                   height={400}

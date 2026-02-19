@@ -505,7 +505,7 @@ export default function SharedFileSystemPage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/images/sfs-multi-access.jpg"
+                  src="/placeholder.svg"
                   alt="Multi-Instance Shared File Access"
                   width={600}
                   height={400}

@@ -585,7 +585,7 @@ export default function StackBillFeaturesPage() {
             {/* Left - Dashboard Screenshot */}
             <div className="bg-white rounded-2xl shadow-lg p-4 border border-gray-100">
               <img
-                src="/images/menu-filler.png"
+                src="/placeholder.svg"
                 alt="StackBill Dashboard showing analytics, usage metrics, and billing overview"
                 className="w-full h-auto rounded-lg"
               />

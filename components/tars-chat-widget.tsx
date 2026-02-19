@@ -90,13 +90,13 @@ export function TARSChatWidget() {
       const welcomeMessage: Message = {
         id: "welcome",
         content:
-          "Hi 👋 I'm TARS, the StackOrbit AI Assistant.\nAsk me anything about our cloud platforms, Apache CloudStack, or AI services.",
+          "Hi, I'm TARS, the StackOrbit AI Assistant.\nAsk me anything about our cloud platforms, Apache CloudStack, or AI services.",
         role: "assistant",
         timestamp: new Date().toISOString(),
       }
       setMessages([welcomeMessage])
     }
-  }, [isOpen])
+  }, [isOpen, messages.length])
 
   const toggleOpen = () => {
     const newState = !isOpen
@@ -317,16 +317,18 @@ export function TARSChatWidget() {
                 size="sm"
                 onClick={toggleTheme}
                 className={cn("h-8 w-8 p-0", theme === "light" ? "hover:bg-gray-200" : "hover:bg-gray-800")}
+                aria-label={theme === "light" ? "Switch to dark theme" : "Switch to light theme"}
               >
-                {theme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4 text-yellow-400" />}
+                {theme === "light" ? <Moon className="h-4 w-4" aria-hidden="true" /> : <Sun className="h-4 w-4 text-yellow-400" aria-hidden="true" />}
               </Button>
               <Button
                 variant="ghost"
                 size="sm"
                 onClick={toggleOpen}
                 className={cn("h-8 w-8 p-0", theme === "light" ? "hover:bg-gray-200" : "hover:bg-gray-800")}
+                aria-label="Close TARS chat"
               >
-                <X className="h-4 w-4" />
+                <X className="h-4 w-4" aria-hidden="true" />
               </Button>
             </div>
           </div>
@@ -437,8 +439,10 @@ export function TARSChatWidget() {
               theme === "light" ? "bg-white border-gray-200" : "bg-gray-900 border-gray-800",
             )}
           >
-            <form onSubmit={handleSubmit} className="flex gap-2">
+            <form onSubmit={handleSubmit} className="flex gap-2" role="search" aria-label="Chat with TARS">
+              <label htmlFor="tars-chat-input" className="sr-only">Message TARS</label>
               <input
+                id="tars-chat-input"
                 ref={inputRef}
                 type="text"
                 value={inputValue}
@@ -459,8 +463,9 @@ export function TARSChatWidget() {
                 size="sm"
                 disabled={!inputValue.trim() || isLoading}
                 className="px-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 disabled:opacity-50"
+                aria-label="Send message"
               >
-                <Send className="h-4 w-4" />
+                <Send className="h-4 w-4" aria-hidden="true" />
               </Button>
             </form>
 

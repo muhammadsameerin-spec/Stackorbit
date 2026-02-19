@@ -261,12 +261,7 @@ const navLinks = [
   { href: "/partner", label: "Partner" },
 ]
 
-const locales = ['en', 'fr', 'es']; // Declare locales variable
-const localeNames = {
-  en: 'English',
-  fr: 'French',
-  es: 'Spanish',
-}; // Declare localeNames variable
+
 
 export function Navigation() {
   const { locale, setLocale, t, locales, localeNames } = useLanguage()
@@ -363,7 +358,7 @@ export function Navigation() {
     }, 200)
   }
 
-  const handleLanguageChange = (newLocale) => {
+  const handleLanguageChange = (newLocale: string) => {
     setLocale(newLocale)
     setLanguageDropdownOpen(false)
   }
@@ -391,6 +386,9 @@ export function Navigation() {
                 <button
                   onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
                   className="flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors"
+                  aria-expanded={languageDropdownOpen}
+                  aria-haspopup="listbox"
+                  aria-label="Select language"
                 >
                   <Languages className="w-3.5 h-3.5" />
                   <span>{currentLanguageName === 'English' ? 'English' : currentLanguageName.split(' ')[0]}</span>
@@ -437,19 +435,14 @@ export function Navigation() {
       </div>
 
       {/* Navigation Bar */}
-      <nav className="bg-background border-b border-border/40 sticky top-0 z-50 relative">
+      <nav className="bg-background border-b border-border/40 sticky top-0 z-50 relative" aria-label="Main navigation">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-8 h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
-              <Image
-                src="/stackorbit-logo.png"
-                alt="StackOrbit Logo"
-                width={160}
-                height={40}
-                className="h-10 w-auto"
-                style={{ mixBlendMode: 'multiply' }}
-              />
+            <Link href="/" className="flex items-center gap-2" aria-label="StackOrbit - Home">
+              <span className="text-xl font-bold text-foreground tracking-tight">
+                Stack<span className="text-primary">Orbit</span>
+              </span>
             </Link>
 
             {/* Desktop Menu */}
@@ -457,11 +450,16 @@ export function Navigation() {
               <div className="flex items-center gap-6">
                 {/* Platform Dropdown */}
                 <div onMouseEnter={handlePlatformEnter} onMouseLeave={handlePlatformLeave}>
-                  <button className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6">
+                  <button
+                    className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6"
+                    aria-expanded={platformDropdownOpen}
+                    aria-haspopup="true"
+                  >
                     {t('navigation.platform')}
                     <ChevronDown
                       size={14}
                       className={`transition-transform duration-200 ${platformDropdownOpen ? "rotate-180" : ""}`}
+                      aria-hidden="true"
                     />
                   </button>
 
@@ -682,7 +680,7 @@ export function Navigation() {
                                     </div>
                                     <div className="mb-4 rounded-xl overflow-hidden border border-purple-200/50 dark:border-purple-800/30 shadow-lg">
                                       <Image
-                                        src="/images/menu-filler.png"
+                                        src="/placeholder.svg"
                                         alt="StackOrbit Platform Dashboard"
                                         width={400}
                                         height={200}
@@ -708,11 +706,16 @@ export function Navigation() {
                 </div>
 
                 <div onMouseEnter={handleServicesEnter} onMouseLeave={handleServicesLeave}>
-                  <button className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6">
+                  <button
+                    className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6"
+                    aria-expanded={servicesDropdownOpen}
+                    aria-haspopup="true"
+                  >
                     {t('navigation.services')}
                     <ChevronDown
                       size={14}
                       className={`transition-transform duration-200 ${servicesDropdownOpen ? "rotate-180" : ""}`}
+                      aria-hidden="true"
                     />
                   </button>
 
@@ -819,11 +822,16 @@ export function Navigation() {
                 </div>
 
                 <div onMouseEnter={handleSolutionsEnter} onMouseLeave={handleSolutionsLeave}>
-                  <button className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6">
+                  <button
+                    className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6"
+                    aria-expanded={solutionsDropdownOpen}
+                    aria-haspopup="true"
+                  >
                     Solutions
                     <ChevronDown
                       size={14}
                       className={`transition-transform duration-200 ${solutionsDropdownOpen ? "rotate-180" : ""}`}
+                      aria-hidden="true"
                     />
                   </button>
 
@@ -943,11 +951,16 @@ export function Navigation() {
                 </div>
 
                 <div onMouseEnter={handleResourcesEnter} onMouseLeave={handleResourcesLeave}>
-                  <button className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6">
+                  <button
+                    className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 py-6"
+                    aria-expanded={resourcesDropdownOpen}
+                    aria-haspopup="true"
+                  >
                     Resources
                     <ChevronDown
                       size={14}
                       className={`transition-transform duration-200 ${resourcesDropdownOpen ? "rotate-180" : ""}`}
+                      aria-hidden="true"
                     />
                   </button>
 
@@ -1124,8 +1137,13 @@ export function Navigation() {
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            <button
+              className="md:hidden p-2 rounded-md hover:bg-muted transition-colors"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-expanded={mobileMenuOpen}
+              aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+            >
+              {mobileMenuOpen ? <X size={24} aria-hidden="true" /> : <Menu size={24} aria-hidden="true" />}
             </button>
           </div>
 

@@ -584,7 +584,7 @@ export default function HelpdeskIntegrationPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-orange-500/20 to-amber-500/20 rounded-2xl p-8 border border-white/10">
                 <Image
-                  src="/images/helpdesk-self-service.jpg"
+                  src="/placeholder.svg"
                   alt="Self-Service Help Center"
                   width={500}
                   height={350}

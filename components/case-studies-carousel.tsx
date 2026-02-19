@@ -9,12 +9,12 @@ const caseStudies = [
   {
     title: "Rakuten Taps StackOrbit to Build Cloud-Native Euro Bank",
     subtitle: "Why StackOrbit? Cloud on-demand and compliant, and truly minimal management.",
-    image: "/professional-businesswoman-working-at-modern-offic.jpg",
+    image: "/placeholder.svg",
   },
   {
     title: "Leading Telecom Provider Launches Sovereign Cloud Platform",
     subtitle: "Full infrastructure control, multi-region deployment, and complete data sovereignty.",
-    image: "/modern-data-center-server-room-cloud-infrastructur.jpg",
+    image: "/placeholder.svg",
   },
 ]
 
@@ -30,16 +30,16 @@ export function CaseStudiesCarousel() {
   }
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background" aria-label="Customer case studies">
       <div className="container mx-auto max-w-7xl">
-        <div className="relative">
+        <div className="relative" role="region" aria-roledescription="carousel" aria-label="Case studies carousel">
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full border-2 border-gray-300 bg-white hover:bg-gray-50 flex items-center justify-center transition-colors"
             aria-label="Previous case study"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <ChevronLeft className="w-6 h-6" aria-hidden="true" />
           </button>
 
           <button
@@ -47,7 +47,7 @@ export function CaseStudiesCarousel() {
             className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full border-2 border-gray-300 bg-white hover:bg-gray-50 flex items-center justify-center transition-colors"
             aria-label="Next case study"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-6 h-6" aria-hidden="true" />
           </button>
 
           {/* Content Grid */}

@@ -1,7 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-const OPENAI_API_KEY =
-  "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"
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || ""
 
 const TARS_SYSTEM_PROMPT = `You are TARS, the official AI Assistant for StackOrbit.
 
@@ -72,6 +71,10 @@ export async function POST(request: NextRequest) {
 
     if (!message || typeof message !== "string") {
       return NextResponse.json({ error: "Invalid message format" }, { status: 400 })
+    }
+
+    if (!OPENAI_API_KEY) {
+      return NextResponse.json({ error: "API key not configured" }, { status: 500 })
     }
 
     const response = await fetch("https://api.openai.com/v1/chat/completions", {

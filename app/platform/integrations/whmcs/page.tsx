@@ -460,7 +460,7 @@ const requirements = [
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
                 <Image
-                  src="/images/whmcs-billing-sync.jpg"
+                  src="/placeholder.svg"
                   alt="WHMCS Billing Synchronization"
                   width={600}
                   height={400}

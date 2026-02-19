@@ -38,7 +38,7 @@ export function StackBillNavigation() {
           <div className="flex items-center justify-between h-14">
             {/* StackBill Logo */}
             <Link href="/platform/stackbill" className="flex items-center flex-shrink-0">
-              <Image src="/images/stackbill-logo.png" alt="StackBill" width={140} height={36} className="h-8 w-auto" />
+              <span className="text-lg font-bold text-foreground tracking-tight">Stack<span className="text-red-500">Bill</span></span>
             </Link>
 
             {/* Right-aligned Menu Items */}

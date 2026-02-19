@@ -52,6 +52,9 @@ export function RotatingText() {
       <span
         className="inline-block text-left text-primary"
         style={{ width: width ? `${width}px` : "auto" }}
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
       >
         <span
           className={`inline-block transition-all duration-500 ease-in-out ${

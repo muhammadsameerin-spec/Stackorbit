@@ -128,7 +128,7 @@ export default function StackWatchPage() {
           {/* StackWatch Infographic */}
           <div className="flex justify-center">
             <img 
-              src="/images/stackwatch-infographic.png" 
+              src="/placeholder.svg" 
               alt="StackWatch monitoring architecture showing VM Monitoring, Cloud Operations, and Intelligent Alerts" 
               className="w-full max-w-4xl rounded-xl shadow-lg"
             />

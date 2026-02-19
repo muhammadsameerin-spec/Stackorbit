@@ -322,7 +322,7 @@ export default function MarketplacePage() {
             <div className="relative">
               <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-gray-100 overflow-hidden">
                 <Image
-                  src="/images/simplified-apps-manager-dashboard-full.png"
+                  src="/placeholder.svg"
                   alt="Simplified Apps Manager Dashboard"
                   width={600}
                   height={450}

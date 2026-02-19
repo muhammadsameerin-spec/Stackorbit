@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY || ""}`,
       },
       body: JSON.stringify({
         model: "gpt-4o-mini",
