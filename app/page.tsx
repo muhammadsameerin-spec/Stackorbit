@@ -155,11 +155,11 @@ export default function HomePage() {
 
   // Customer logos
   const customers = [
-    { name: "Kalaam KEMS", logo: "/images/client-9.png" },
-    { name: "Coloasia", logo: "/images/client-6.png" },
-    { name: "AFRANET", logo: "/images/client-5.png" },
-    { name: "Data Hub", logo: "/images/client-7.png" },
-    { name: "Appranix", logo: "/images/client-10.png" }
+    { name: "Kalaam KEMS", logo: "/placeholder.svg" },
+    { name: "Coloasia", logo: "/placeholder.svg" },
+    { name: "AFRANET", logo: "/placeholder.svg" },
+    { name: "Data Hub", logo: "/placeholder.svg" },
+    { name: "Appranix", logo: "/placeholder.svg" }
   ]
 
   return (
@@ -456,7 +456,7 @@ export default function HomePage() {
                   <div className="relative flex-1 min-h-0 overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-white dark:from-gray-900 to-transparent z-10" />
                     <img
-                      src="/images/stackwatch-configure-agent.png"
+                      src="/placeholder.svg"
                       alt="StackWatch monitoring agent configuration interface"
                       className="w-full h-full object-cover object-top px-6 md:px-10"
                     />

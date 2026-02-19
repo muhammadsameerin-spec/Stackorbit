@@ -316,7 +316,7 @@ export default function StackWatchFeaturesPage() {
             {/* Left - Dashboard Screenshot */}
             <div className="bg-white rounded-2xl shadow-lg p-4 border border-gray-100">
               <img
-                src="/images/menu-filler.png"
+                src="/placeholder.svg"
                 alt="StackWatch Dashboard showing monitoring metrics and alerts"
                 className="w-full h-auto rounded-lg"
               />

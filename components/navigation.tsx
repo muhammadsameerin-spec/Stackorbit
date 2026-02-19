@@ -680,7 +680,7 @@ export function Navigation() {
                                     </div>
                                     <div className="mb-4 rounded-xl overflow-hidden border border-purple-200/50 dark:border-purple-800/30 shadow-lg">
                                       <Image
-                                        src="/images/menu-filler.png"
+                                        src="/placeholder.svg"
                                         alt="StackOrbit Platform Dashboard"
                                         width={400}
                                         height={200}

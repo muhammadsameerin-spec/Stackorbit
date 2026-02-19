@@ -99,18 +99,18 @@ export default function Home2Page() {
           <div className="relative mt-12">
             <div className="flex animate-marquee">
               <div className="flex items-center gap-16 pr-16 shrink-0">
-                <img src="/images/client-9.png" alt="Kalaam KEMS" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-6.png" alt="Coloasia" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-5.png" alt="AFRANET" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-7.png" alt="Data Hub" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-10.png" alt="Appranix" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="Kalaam KEMS logo" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="Coloasia logo" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="AFRANET logo" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="Data Hub logo" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="Appranix logo" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
               </div>
-              <div className="flex items-center gap-16 pr-16 shrink-0">
-                <img src="/images/client-9.png" alt="Kalaam KEMS" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-6.png" alt="Coloasia" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-5.png" alt="AFRANET" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-7.png" alt="Data Hub" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
-                <img src="/images/client-10.png" alt="Appranix" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+              <div className="flex items-center gap-16 pr-16 shrink-0" aria-hidden="true">
+                <img src="/placeholder.svg" alt="" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
+                <img src="/placeholder.svg" alt="" className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all" />
               </div>
             </div>
           </div>

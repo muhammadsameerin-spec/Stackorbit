@@ -145,7 +145,7 @@ export default function StackBillPage() {
               <div className="relative flex justify-center lg:justify-end">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 border border-gray-200/50 w-full max-w-[500px]">
                   <Image
-                    src="/images/stackbill-cmp-hero-new.png"
+                    src="/placeholder.svg"
                     alt="StackBill Cloud Management Portal"
                     width={600}
                     height={400}
@@ -233,7 +233,7 @@ export default function StackBillPage() {
               <div className="flex justify-center">
                 <div className="w-full max-w-4xl rounded-2xl overflow-hidden border border-border/50 shadow-lg">
                   <Image
-                    src="/images/stackorbit-main.png"
+                    src="/placeholder.svg"
                     alt="StackOrbit Platform Architecture - Build, Operate, Monetize"
                     width={1400}
                     height={900}

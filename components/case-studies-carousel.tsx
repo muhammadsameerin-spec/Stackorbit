@@ -9,12 +9,12 @@ const caseStudies = [
   {
     title: "Rakuten Taps StackOrbit to Build Cloud-Native Euro Bank",
     subtitle: "Why StackOrbit? Cloud on-demand and compliant, and truly minimal management.",
-    image: "/images/case-study-rakuten.jpg",
+    image: "/placeholder.svg",
   },
   {
     title: "Leading Telecom Provider Launches Sovereign Cloud Platform",
     subtitle: "Full infrastructure control, multi-region deployment, and complete data sovereignty.",
-    image: "/images/case-study-telecom.jpg",
+    image: "/placeholder.svg",
   },
 ]
 
@@ -39,7 +39,7 @@ export function CaseStudiesCarousel() {
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full border-2 border-gray-300 bg-white hover:bg-gray-50 flex items-center justify-center transition-colors"
             aria-label="Previous case study"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <ChevronLeft className="w-6 h-6" aria-hidden="true" />
           </button>
 
           <button
@@ -47,7 +47,7 @@ export function CaseStudiesCarousel() {
             className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full border-2 border-gray-300 bg-white hover:bg-gray-50 flex items-center justify-center transition-colors"
             aria-label="Next case study"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-6 h-6" aria-hidden="true" />
           </button>
 
           {/* Content Grid */}
