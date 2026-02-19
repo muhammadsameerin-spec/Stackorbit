@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "소버린 클라우드 구축 | StackOrbit",
+    "description": "오픈소스 자유와 AI 인텔리전스로 소버린 클라우드 구축을 기업에 제공합니다."
+  },
+  "navigation": {
+    "platform": "플랫폼",
+    "services": "서비스",
+    "solutions": "솔루션",
+    "resources": "리소스",
+    "company": "회사",
+    "support": "지원",
+    "partner": "파트너",
+    "contactUs": "문의하기",
+    "bookDemo": "데모 예약",
+    "getStarted": "시작하기",
+    "learnMore": "자세히 보기",
+    "exploreMore": "더 알아보기"
+  },
+  "hero": {
+    "title": "소버린 클라우드를 위한 통합 플랫폼",
+    "description": "ISP, MSP, CSP 및 기업이 오픈소스 자유와 AI 인텔리전스로 소버린 클라우드 플랫폼을 구축, 운영 및 확장할 수 있도록 지원합니다.",
+    "cta": {
+      "primary": "무료로 시작",
+      "secondary": "데모 예약"
+    }
+  },
+  "demo": {
+    "title": "StackOrbit의 힘을 경험하세요",
+    "placeholder": "클라우드 인프라에 대해 TARS에게 무엇이든 물어보세요...",
+    "suggestions": {
+      "setup": "멀티 리전 소버린 클라우드 설정을 도와주세요",
+      "migrate": "VMware에서 마이그레이션하는 방법을 보여주세요",
+      "optimize": "AI 인사이트로 클라우드 비용 최적화"
+    }
+  },
+  "solutions": {
+    "title": "모든 클라우드 여정을 지원",
+    "isp": {
+      "number": "01",
+      "title": "ISP 및 통신사",
+      "subtitle": "네트워크 인프라를 클라우드 수익으로 전환",
+      "description": "네트워크 인프라를 경쟁 우위로 전환하세요. 엣지 클라우드를 배포하고, 관리형 서비스를 제공하며, 통합 플랫폼으로 새로운 수익원을 창출합니다."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSP 및 VAR",
+      "subtitle": "관리형 서비스 사업 확장",
+      "description": "화이트 라벨 솔루션으로 고객에게 엔터프라이즈급 클라우드 서비스를 제공합니다. 운영 복잡성을 줄이면서 마진과 고객 유지율을 높입니다."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "엔터프라이즈",
+      "subtitle": "디지털 트랜스포메이션 주도",
+      "description": "컴플라이언스 요구사항을 충족하고, 데이터 주권을 유지하며, 벤더 종속성을 줄이는 프라이빗 클라우드를 구축합니다. 최신 AI 기반 자동화를 활용하세요."
+    },
+    "government": {
+      "number": "04",
+      "title": "정부",
+      "subtitle": "안전, 주권, 규정 준수",
+      "description": "에어갭 배포, 데이터 레지던시 제어 및 포괄적인 감사 기능으로 가장 엄격한 보안 및 규정 준수 요구사항을 충족합니다."
+    }
+  },
+  "platform": {
+    "title": "완전한 클라우드 플랫폼",
+    "subtitle": "소버린 클라우드 구축, 관리 및 확장에 필요한 모든 것",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "셀프 서비스 포털이 있는 완전한 클라우드 관리 및 빌링 플랫폼"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "전체 인프라를 위한 AI 기반 모니터링 및 옵저버빌리티"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "불변 스토리지를 갖춘 엔터프라이즈 백업 및 재해 복구"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "멀티 테넌트 지원이 있는 S3 호환 오브젝트 스토리지"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "고급 AI로 구동되는 지능형 자동화 및 인사이트"
+    }
+  },
+  "features": {
+    "title": "제품 기능",
+    "publicCloud": "퍼블릭 클라우드 서비스",
+    "b2b": "B2C 및 B2B 포털",
+    "compute": "컴퓨트 및 스토리지 관리",
+    "marketplace": "마켓플레이스 관리",
+    "xaas": "XaaS 관리"
+  },
+  "cta": {
+    "title": "소버린 클라우드를 구축할 준비가 되셨나요?",
+    "description": "전 세계 수백 개의 조직이 클라우드 인프라에 StackOrbit을 신뢰합니다.",
+    "button": "무료 체험 시작"
+  },
+  "footer": {
+    "description": "오픈소스 자유와 AI 인텔리전스로 소버린 클라우드 구축을 기업에 제공합니다.",
+    "products": "제품",
+    "company": "회사",
+    "resources": "리소스",
+    "legal": "법적 정보",
+    "about": "회사 소개",
+    "careers": "채용",
+    "blog": "블로그",
+    "documentation": "문서",
+    "community": "커뮤니티",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "보기",
+    "close": "닫기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "new": "새로운",
+    "free": "무료",
+    "popular": "인기"
+  }
+}

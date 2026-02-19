@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "ソブリンクラウドを構築 | StackOrbit",
+    "description": "オープンソースの自由とAIインテリジェンスで、ソブリンクラウドの構築を企業に提供します。"
+  },
+  "navigation": {
+    "platform": "プラットフォーム",
+    "services": "サービス",
+    "solutions": "ソリューション",
+    "resources": "リソース",
+    "company": "会社概要",
+    "support": "サポート",
+    "partner": "パートナー",
+    "contactUs": "お問い合わせ",
+    "bookDemo": "デモを予約",
+    "getStarted": "始める",
+    "learnMore": "詳細を見る",
+    "exploreMore": "もっと探す"
+  },
+  "hero": {
+    "title": "ソブリンクラウドのための統合プラットフォーム",
+    "description": "ISP、MSP、CSP、企業がオープンソースの自由とAIインテリジェンスでソブリンクラウドプラットフォームを構築、運用、拡張できるようにします。",
+    "cta": {
+      "primary": "無料で始める",
+      "secondary": "デモを予約"
+    }
+  },
+  "demo": {
+    "title": "StackOrbitのパワーを体験",
+    "placeholder": "クラウドインフラについてTARSに何でも聞いてください...",
+    "suggestions": {
+      "setup": "マルチリージョンソブリンクラウドのセットアップを手伝ってください",
+      "migrate": "VMwareからの移行方法を教えてください",
+      "optimize": "AIインサイトでクラウドコストを最適化"
+    }
+  },
+  "solutions": {
+    "title": "すべてのクラウドジャーニーを支援",
+    "isp": {
+      "number": "01",
+      "title": "ISP・通信事業者",
+      "subtitle": "ネットワークインフラをクラウド収益に変換",
+      "description": "ネットワークインフラを競争優位性に変えましょう。エッジクラウドを展開し、マネージドサービスを提供し、統合プラットフォームで新しい収益源を創出します。"
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSP・VAR",
+      "subtitle": "マネージドサービス事業を拡大",
+      "description": "ホワイトラベルソリューションでエンタープライズグレードのクラウドサービスをクライアントに提供します。運用の複雑さを軽減しながら、マージンと顧客維持率を向上させます。"
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "エンタープライズ",
+      "subtitle": "デジタルトランスフォーメーションを主導",
+      "description": "コンプライアンス要件を満たし、データ主権を維持し、ベンダーロックインを軽減するプライベートクラウドを構築します。最新のAI駆動自動化を活用できます。"
+    },
+    "government": {
+      "number": "04",
+      "title": "政府機関",
+      "subtitle": "セキュア、ソブリン、コンプライアント",
+      "description": "エアギャップ展開、データレジデンシー制御、包括的な監査機能で最も厳格なセキュリティとコンプライアンス要件を満たします。"
+    }
+  },
+  "platform": {
+    "title": "完全なクラウドプラットフォーム",
+    "subtitle": "ソブリンクラウドの構築、管理、拡張に必要なすべて",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "セルフサービスポータルを備えた完全なクラウド管理・請求プラットフォーム"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "インフラ全体のAI駆動監視・オブザーバビリティ"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "イミュータブルストレージを備えたエンタープライズバックアップ・災害復旧"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "マルチテナントサポート付きS3互換オブジェクトストレージ"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "高度なAIによるインテリジェント自動化とインサイト"
+    }
+  },
+  "features": {
+    "title": "製品機能",
+    "publicCloud": "パブリッククラウドサービス",
+    "b2b": "B2C・B2Bポータル",
+    "compute": "コンピュート・ストレージ管理",
+    "marketplace": "マーケットプレイス管理",
+    "xaas": "XaaS管理"
+  },
+  "cta": {
+    "title": "ソブリンクラウドを構築する準備はできましたか？",
+    "description": "世界中の何百もの組織がクラウドインフラにStackOrbitを信頼しています。",
+    "button": "無料トライアルを開始"
+  },
+  "footer": {
+    "description": "オープンソースの自由とAIインテリジェンスで、ソブリンクラウドの構築を企業に提供します。",
+    "products": "製品",
+    "company": "会社概要",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "about": "会社情報",
+    "careers": "採用情報",
+    "blog": "ブログ",
+    "documentation": "ドキュメント",
+    "community": "コミュニティ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "close": "閉じる",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "new": "新規",
+    "free": "無料",
+    "popular": "人気"
+  }
+}

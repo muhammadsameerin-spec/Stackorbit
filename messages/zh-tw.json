@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "建構您的主權雲 | StackOrbit",
+    "description": "以開源自由和人工智慧賦能企業建構主權雲。"
+  },
+  "navigation": {
+    "platform": "平台",
+    "services": "服務",
+    "solutions": "解決方案",
+    "resources": "資源",
+    "company": "公司",
+    "support": "支援",
+    "partner": "合作夥伴",
+    "contactUs": "聯繫我們",
+    "bookDemo": "預約演示",
+    "getStarted": "開始使用",
+    "learnMore": "瞭解更多",
+    "exploreMore": "探索更多"
+  },
+  "hero": {
+    "title": "主權雲統一平台",
+    "description": "賦能 ISP、MSP、CSP 和企業以開源自由和人工智慧建構、營運和擴展主權雲平台。",
+    "cta": {
+      "primary": "免費開始",
+      "secondary": "預約演示"
+    }
+  },
+  "demo": {
+    "title": "體驗 StackOrbit 的強大功能",
+    "placeholder": "向 TARS 詢問任何關於雲端基礎設施的問題...",
+    "suggestions": {
+      "setup": "幫助我設定多區域主權雲",
+      "migrate": "展示如何從 VMware 遷移",
+      "optimize": "用 AI 洞察優化我的雲端成本"
+    }
+  },
+  "solutions": {
+    "title": "助力每一段雲端旅程",
+    "isp": {
+      "number": "01",
+      "title": "ISP 和電信商",
+      "subtitle": "將網路基礎設施轉化為雲端收入",
+      "description": "將您的網路基礎設施轉化為競爭優勢。部署邊緣雲、提供託管服務，並通過我們的統一平台創造新的收入來源。"
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSP 和 VAR",
+      "subtitle": "擴展您的託管服務業務",
+      "description": "通過白標解決方案為您的客戶提供企業級雲端服務。在提高利潤率和客戶留存率的同時降低營運複雜性。"
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "企業",
+      "subtitle": "主導您的數位轉型",
+      "description": "建構滿足合規要求、維護資料主權並減少供應商鎖定的私有雲，同時利用最新的 AI 驅動自動化。"
+    },
+    "government": {
+      "number": "04",
+      "title": "政府",
+      "subtitle": "安全、主權、合規",
+      "description": "通過氣隙部署、資料駐留控制和全面的審計功能滿足最嚴格的安全和合規要求。"
+    }
+  },
+  "platform": {
+    "title": "完整的雲端平台",
+    "subtitle": "建構、管理和擴展主權雲所需的一切",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "帶有自助服務入口的完整雲端管理和計費平台"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "為整個基礎設施提供 AI 驅動的監控和可觀測性"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "具有不可變儲存的企業備份和災難復原"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "支援多租戶的 S3 相容物件儲存"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "由先進 AI 驅動的智慧自動化和洞察"
+    }
+  },
+  "features": {
+    "title": "產品功能",
+    "publicCloud": "公有雲即服務",
+    "b2b": "B2C 和 B2B 入口",
+    "compute": "運算和儲存管理",
+    "marketplace": "市場管理",
+    "xaas": "XaaS 管理"
+  },
+  "cta": {
+    "title": "準備好建構您的主權雲了嗎？",
+    "description": "加入全球數百個信任 StackOrbit 為其雲端基礎設施提供動力的組織。",
+    "button": "開始免費試用"
+  },
+  "footer": {
+    "description": "以開源自由和人工智慧賦能企業建構主權雲。",
+    "products": "產品",
+    "company": "公司",
+    "resources": "資源",
+    "legal": "法律",
+    "about": "關於我們",
+    "careers": "職涯",
+    "blog": "部落格",
+    "documentation": "文件",
+    "community": "社群",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "copyright": "版權所有。"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "retry": "重試",
+    "cancel": "取消",
+    "save": "儲存",
+    "delete": "刪除",
+    "edit": "編輯",
+    "view": "檢視",
+    "close": "關閉",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "new": "新增",
+    "free": "免費",
+    "popular": "熱門"
+  }
+}

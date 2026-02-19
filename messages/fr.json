@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Construisez Votre Cloud Souverain | StackOrbit",
+    "description": "Permettre aux entreprises de construire des clouds souverains — avec la liberté open-source et l'intelligence artificielle."
+  },
+  "navigation": {
+    "platform": "Plateforme",
+    "services": "Services",
+    "solutions": "Solutions",
+    "resources": "Ressources",
+    "company": "Entreprise",
+    "support": "Support",
+    "partner": "Partenaires",
+    "contactUs": "Contactez-nous",
+    "bookDemo": "Réserver une Démo",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "exploreMore": "Explorer Plus"
+  },
+  "hero": {
+    "title": "Une Plateforme Unifiée pour les Clouds Souverains",
+    "description": "Permettez aux ISPs, MSPs, CSPs et Entreprises de construire, exploiter et faire évoluer des plateformes cloud souveraines avec la liberté open-source et l'intelligence artificielle.",
+    "cta": {
+      "primary": "Commencer Gratuitement",
+      "secondary": "Réserver une Démo"
+    }
+  },
+  "demo": {
+    "title": "Découvrez la Puissance de StackOrbit",
+    "placeholder": "Demandez à TARS n'importe quoi sur l'infrastructure cloud...",
+    "suggestions": {
+      "setup": "Aidez-moi à configurer un cloud souverain multi-région",
+      "migrate": "Montrez-moi comment migrer depuis VMware",
+      "optimize": "Optimisez mes coûts cloud avec des insights IA"
+    }
+  },
+  "solutions": {
+    "title": "Alimenter Chaque Parcours Cloud",
+    "isp": {
+      "number": "01",
+      "title": "ISPs et Télécoms",
+      "subtitle": "Transformez l'Infrastructure Réseau en Revenus Cloud",
+      "description": "Transformez votre infrastructure réseau en avantage concurrentiel. Déployez des clouds edge, offrez des services gérés et créez de nouvelles sources de revenus avec notre plateforme unifiée."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSPs et VARs",
+      "subtitle": "Faites Évoluer Votre Pratique de Services Gérés",
+      "description": "Fournissez des services cloud de niveau entreprise à vos clients avec des solutions en marque blanche. Réduisez la complexité opérationnelle tout en augmentant les marges et la fidélisation client."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Entreprises",
+      "subtitle": "Maîtrisez Votre Transformation Numérique",
+      "description": "Construisez des clouds privés qui répondent aux exigences de conformité, maintiennent la souveraineté des données et réduisent la dépendance aux fournisseurs tout en tirant parti de l'automatisation IA de pointe."
+    },
+    "government": {
+      "number": "04",
+      "title": "Gouvernement",
+      "subtitle": "Sécurisé, Souverain, Conforme",
+      "description": "Répondez aux exigences de sécurité et de conformité les plus strictes avec des déploiements isolés, des contrôles de résidence des données et des capacités d'audit complètes."
+    }
+  },
+  "platform": {
+    "title": "La Plateforme Cloud Complète",
+    "subtitle": "Tout ce dont vous avez besoin pour construire, gérer et faire évoluer des clouds souverains",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Plateforme complète de gestion cloud et de facturation avec portails en libre-service"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "Surveillance et observabilité alimentées par l'IA pour toute votre infrastructure"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Sauvegarde entreprise et récupération après sinistre avec stockage immuable"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "Stockage objet compatible S3 avec support multi-tenant"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Automatisation intelligente et insights alimentés par l'IA avancée"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités du Produit",
+    "publicCloud": "Cloud Public en tant que Service",
+    "b2b": "Portail B2C et B2B",
+    "compute": "Gestion du Calcul et du Stockage",
+    "marketplace": "Gestion du Marketplace",
+    "xaas": "Gestion XaaS"
+  },
+  "cta": {
+    "title": "Prêt à Construire Votre Cloud Souverain?",
+    "description": "Rejoignez des centaines d'organisations dans le monde qui font confiance à StackOrbit pour alimenter leur infrastructure cloud.",
+    "button": "Démarrer l'Essai Gratuit"
+  },
+  "footer": {
+    "description": "Permettre aux entreprises de construire des clouds souverains avec la liberté open-source et l'intelligence artificielle.",
+    "products": "Produits",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": "Mentions Légales",
+    "about": "À Propos",
+    "careers": "Carrières",
+    "blog": "Blog",
+    "documentation": "Documentation",
+    "community": "Communauté",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "copyright": "Tous droits réservés."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "new": "Nouveau",
+    "free": "Gratuit",
+    "popular": "Populaire"
+  }
+}

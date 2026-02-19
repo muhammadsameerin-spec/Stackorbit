@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Construye Tu Nube Soberana | StackOrbit",
+    "description": "Empoderando a las empresas para construir nubes soberanas — con libertad de código abierto e inteligencia artificial."
+  },
+  "navigation": {
+    "platform": "Plataforma",
+    "services": "Servicios",
+    "solutions": "Soluciones",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "support": "Soporte",
+    "partner": "Socios",
+    "contactUs": "Contáctenos",
+    "bookDemo": "Reservar Demo",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber más",
+    "exploreMore": "Explorar Más"
+  },
+  "hero": {
+    "title": "Una Plataforma Unificada para Nubes Soberanas",
+    "description": "Empodere a ISPs, MSPs, CSPs y Empresas para construir, operar y escalar plataformas de nube soberanas con libertad de código abierto e inteligencia artificial.",
+    "cta": {
+      "primary": "Empezar Gratis",
+      "secondary": "Reservar una Demo"
+    }
+  },
+  "demo": {
+    "title": "Experimenta el Poder de StackOrbit",
+    "placeholder": "Pregunta a TARS cualquier cosa sobre infraestructura en la nube...",
+    "suggestions": {
+      "setup": "Ayúdame a configurar una nube soberana multi-región",
+      "migrate": "Muéstrame cómo migrar desde VMware",
+      "optimize": "Optimiza mis costos de nube con insights de IA"
+    }
+  },
+  "solutions": {
+    "title": "Impulsando Cada Viaje en la Nube",
+    "isp": {
+      "number": "01",
+      "title": "ISPs y Telcos",
+      "subtitle": "Transforma la Infraestructura de Red en Ingresos en la Nube",
+      "description": "Convierte tu infraestructura de red en una ventaja competitiva. Despliega nubes de borde, ofrece servicios gestionados y crea nuevas fuentes de ingresos con nuestra plataforma unificada."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSPs y VARs",
+      "subtitle": "Escala Tu Práctica de Servicios Gestionados",
+      "description": "Entrega servicios de nube de nivel empresarial a tus clientes con soluciones de marca blanca. Reduce la complejidad operativa mientras aumentas los márgenes y la retención de clientes."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Empresas",
+      "subtitle": "Domina Tu Transformación Digital",
+      "description": "Construye nubes privadas que cumplan con los requisitos de cumplimiento, mantengan la soberanía de datos y reduzcan la dependencia de proveedores mientras aprovechas lo último en automatización con IA."
+    },
+    "government": {
+      "number": "04",
+      "title": "Gobierno",
+      "subtitle": "Seguro, Soberano, Conforme",
+      "description": "Cumple con los requisitos de seguridad y cumplimiento más estrictos con implementaciones aisladas, controles de residencia de datos y capacidades de auditoría integrales."
+    }
+  },
+  "platform": {
+    "title": "La Plataforma de Nube Completa",
+    "subtitle": "Todo lo que necesitas para construir, gestionar y escalar nubes soberanas",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Plataforma completa de gestión de nube y facturación con portales de autoservicio"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "Monitoreo y observabilidad impulsados por IA para toda tu infraestructura"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Backup empresarial y recuperación ante desastres con almacenamiento inmutable"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "Almacenamiento de objetos compatible con S3 con soporte multi-tenant"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Automatización e insights inteligentes impulsados por IA avanzada"
+    }
+  },
+  "features": {
+    "title": "Características del Producto",
+    "publicCloud": "Nube Pública como Servicio",
+    "b2b": "Portal B2C y B2B",
+    "compute": "Gestión de Cómputo y Almacenamiento",
+    "marketplace": "Gestión de Marketplace",
+    "xaas": "Gestión XaaS"
+  },
+  "cta": {
+    "title": "¿Listo para Construir Tu Nube Soberana?",
+    "description": "Únete a cientos de organizaciones en todo el mundo que confían en StackOrbit para impulsar su infraestructura en la nube.",
+    "button": "Iniciar Prueba Gratuita"
+  },
+  "footer": {
+    "description": "Empoderando a las empresas para construir nubes soberanas con libertad de código abierto e inteligencia artificial.",
+    "products": "Productos",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "about": "Acerca de",
+    "careers": "Carreras",
+    "blog": "Blog",
+    "documentation": "Documentación",
+    "community": "Comunidad",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "retry": "Intentar de nuevo",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "new": "Nuevo",
+    "free": "Gratis",
+    "popular": "Popular"
+  }
+}

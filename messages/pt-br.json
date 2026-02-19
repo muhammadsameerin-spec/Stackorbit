@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Construa Sua Nuvem Soberana | StackOrbit",
+    "description": "Capacitando empresas a construir nuvens soberanas — com liberdade de código aberto e inteligência artificial."
+  },
+  "navigation": {
+    "platform": "Plataforma",
+    "services": "Serviços",
+    "solutions": "Soluções",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "support": "Suporte",
+    "partner": "Parceiros",
+    "contactUs": "Fale Conosco",
+    "bookDemo": "Agendar Demo",
+    "getStarted": "Começar",
+    "learnMore": "Saiba mais",
+    "exploreMore": "Explorar Mais"
+  },
+  "hero": {
+    "title": "Uma Plataforma Unificada para Nuvens Soberanas",
+    "description": "Capacite ISPs, MSPs, CSPs e Empresas a construir, operar e escalar plataformas de nuvem soberanas com liberdade de código aberto e inteligência artificial.",
+    "cta": {
+      "primary": "Comece Grátis",
+      "secondary": "Agendar uma Demo"
+    }
+  },
+  "demo": {
+    "title": "Experimente o Poder do StackOrbit",
+    "placeholder": "Pergunte ao TARS qualquer coisa sobre infraestrutura de nuvem...",
+    "suggestions": {
+      "setup": "Ajude-me a configurar uma nuvem soberana multi-região",
+      "migrate": "Mostre-me como migrar do VMware",
+      "optimize": "Otimize meus custos de nuvem com insights de IA"
+    }
+  },
+  "solutions": {
+    "title": "Impulsionando Cada Jornada na Nuvem",
+    "isp": {
+      "number": "01",
+      "title": "ISPs e Telecoms",
+      "subtitle": "Transforme Infraestrutura de Rede em Receita na Nuvem",
+      "description": "Transforme sua infraestrutura de rede em uma vantagem competitiva. Implante nuvens de borda, ofereça serviços gerenciados e crie novos fluxos de receita com nossa plataforma unificada."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSPs e VARs",
+      "subtitle": "Escale Sua Prática de Serviços Gerenciados",
+      "description": "Entregue serviços de nuvem de nível empresarial aos seus clientes com soluções white-label. Reduza a complexidade operacional enquanto aumenta as margens e a retenção de clientes."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Empresas",
+      "subtitle": "Assuma Sua Transformação Digital",
+      "description": "Construa nuvens privadas que atendam aos requisitos de conformidade, mantenham a soberania dos dados e reduzam a dependência de fornecedores, aproveitando o que há de mais recente em automação com IA."
+    },
+    "government": {
+      "number": "04",
+      "title": "Governo",
+      "subtitle": "Seguro, Soberano, Conforme",
+      "description": "Atenda aos requisitos mais rigorosos de segurança e conformidade com implantações isoladas, controles de residência de dados e recursos abrangentes de auditoria."
+    }
+  },
+  "platform": {
+    "title": "A Plataforma de Nuvem Completa",
+    "subtitle": "Tudo o que você precisa para construir, gerenciar e escalar nuvens soberanas",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Plataforma completa de gerenciamento de nuvem e faturamento com portais de autoatendimento"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "Monitoramento e observabilidade com IA para toda a sua infraestrutura"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Backup empresarial e recuperação de desastres com armazenamento imutável"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "Armazenamento de objetos compatível com S3 com suporte multi-tenant"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Automação e insights inteligentes alimentados por IA avançada"
+    }
+  },
+  "features": {
+    "title": "Recursos do Produto",
+    "publicCloud": "Nuvem Pública como Serviço",
+    "b2b": "Portal B2C e B2B",
+    "compute": "Gerenciamento de Computação e Armazenamento",
+    "marketplace": "Gerenciamento de Marketplace",
+    "xaas": "Gerenciamento XaaS"
+  },
+  "cta": {
+    "title": "Pronto para Construir Sua Nuvem Soberana?",
+    "description": "Junte-se a centenas de organizações em todo o mundo que confiam no StackOrbit para alimentar sua infraestrutura de nuvem.",
+    "button": "Iniciar Teste Gratuito"
+  },
+  "footer": {
+    "description": "Capacitando empresas a construir nuvens soberanas com liberdade de código aberto e inteligência artificial.",
+    "products": "Produtos",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "about": "Sobre",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "documentation": "Documentação",
+    "community": "Comunidade",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyright": "Todos os direitos reservados."
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Visualizar",
+    "close": "Fechar",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "new": "Novo",
+    "free": "Grátis",
+    "popular": "Popular"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Build Your Sovereign Cloud | StackOrbit",
+    "description": "Empowering businesses to build sovereign clouds — with open-source freedom and AI intelligence."
+  },
+  "navigation": {
+    "platform": "Platform",
+    "services": "Services",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "company": "Company",
+    "support": "Support",
+    "partner": "Partner with Us",
+    "contactUs": "ContactUs",
+    "bookDemo": "Book Demo",
+    "getStarted": "Get Started",
+    "learnMore": "Learn more",
+    "exploreMore": "Explore More"
+  },
+  "hero": {
+    "title": "A Unified Platform for Sovereign Clouds",
+    "description": "Empower ISPs, MSPs, CSPs, and Enterprises to build, operate, and scale sovereign cloud platforms with open-source freedom and AI intelligence.",
+    "cta": {
+      "primary": "Get Started Free",
+      "secondary": "Book a Demo"
+    }
+  },
+  "demo": {
+    "title": "Experience the Power of StackOrbit",
+    "placeholder": "Ask TARS anything about cloud infrastructure...",
+    "suggestions": {
+      "setup": "Help me set up a multi-region sovereign cloud",
+      "migrate": "Show me how to migrate from VMware",
+      "optimize": "Optimize my cloud costs with AI insights"
+    }
+  },
+  "solutions": {
+    "title": "Powering Every Cloud Journey",
+    "isp": {
+      "number": "01",
+      "title": "ISPs & Telcos",
+      "subtitle": "Transform Network Infrastructure into Cloud Revenue",
+      "description": "Turn your network infrastructure into a competitive advantage. Deploy edge clouds, offer managed services, and create new revenue streams with our unified platform."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSPs & VARs",
+      "subtitle": "Scale Your Managed Services Practice",
+      "description": "Deliver enterprise-grade cloud services to your clients with white-label solutions. Reduce operational complexity while increasing margins and customer retention."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Enterprises",
+      "subtitle": "Own Your Digital Transformation",
+      "description": "Build private clouds that meet compliance requirements, maintain data sovereignty, and reduce vendor lock-in while leveraging the latest in AI-powered automation."
+    },
+    "government": {
+      "number": "04",
+      "title": "Government",
+      "subtitle": "Secure, Sovereign, Compliant",
+      "description": "Meet the strictest security and compliance requirements with air-gapped deployments, data residency controls, and comprehensive audit capabilities."
+    }
+  },
+  "platform": {
+    "title": "The Complete Cloud Platform",
+    "subtitle": "Everything you need to build, manage, and scale sovereign clouds",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Complete cloud management and billing platform with self-service portals"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "AI-powered monitoring and observability for your entire infrastructure"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Enterprise backup and disaster recovery with immutable storage"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "S3-compatible object storage with multi-tenant support"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Intelligent automation and insights powered by advanced AI"
+    }
+  },
+  "features": {
+    "title": "Product Features",
+    "publicCloud": "Public Cloud as a Service",
+    "b2b": "B2C & B2B Portal",
+    "compute": "Compute & Storage Management",
+    "marketplace": "Marketplace Management",
+    "xaas": "XaaS Management"
+  },
+  "cta": {
+    "title": "Ready to Build Your Sovereign Cloud?",
+    "description": "Join hundreds of organizations worldwide who trust StackOrbit to power their cloud infrastructure.",
+    "button": "Start Free Trial"
+  },
+  "footer": {
+    "description": "Empowering businesses to build sovereign clouds with open-source freedom and AI intelligence.",
+    "products": "Products",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "about": "About",
+    "careers": "Careers",
+    "blog": "Blog",
+    "documentation": "Documentation",
+    "community": "Community",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "new": "New",
+    "free": "Free",
+    "popular": "Popular"
+  }
+}

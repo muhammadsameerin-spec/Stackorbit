@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Bauen Sie Ihre Souveräne Cloud | StackOrbit",
+    "description": "Unternehmen befähigen, souveräne Clouds zu bauen — mit Open-Source-Freiheit und KI-Intelligenz."
+  },
+  "navigation": {
+    "platform": "Plattform",
+    "services": "Dienste",
+    "solutions": "Lösungen",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "support": "Support",
+    "partner": "Partner",
+    "contactUs": "Kontakt",
+    "bookDemo": "Demo Buchen",
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr erfahren",
+    "exploreMore": "Mehr Entdecken"
+  },
+  "hero": {
+    "title": "Eine Einheitliche Plattform für Souveräne Clouds",
+    "description": "Befähigen Sie ISPs, MSPs, CSPs und Unternehmen, souveräne Cloud-Plattformen mit Open-Source-Freiheit und KI-Intelligenz zu bauen, zu betreiben und zu skalieren.",
+    "cta": {
+      "primary": "Kostenlos Starten",
+      "secondary": "Demo Buchen"
+    }
+  },
+  "demo": {
+    "title": "Erleben Sie die Kraft von StackOrbit",
+    "placeholder": "Fragen Sie TARS alles über Cloud-Infrastruktur...",
+    "suggestions": {
+      "setup": "Helfen Sie mir, eine Multi-Region souveräne Cloud einzurichten",
+      "migrate": "Zeigen Sie mir, wie ich von VMware migriere",
+      "optimize": "Optimieren Sie meine Cloud-Kosten mit KI-Einblicken"
+    }
+  },
+  "solutions": {
+    "title": "Jede Cloud-Reise Antreiben",
+    "isp": {
+      "number": "01",
+      "title": "ISPs & Telcos",
+      "subtitle": "Netzwerkinfrastruktur in Cloud-Einnahmen Umwandeln",
+      "description": "Verwandeln Sie Ihre Netzwerkinfrastruktur in einen Wettbewerbsvorteil. Stellen Sie Edge-Clouds bereit, bieten Sie verwaltete Dienste an und schaffen Sie neue Einnahmequellen mit unserer einheitlichen Plattform."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSPs & VARs",
+      "subtitle": "Skalieren Sie Ihre Managed Services Praxis",
+      "description": "Liefern Sie Ihren Kunden Cloud-Services auf Enterprise-Niveau mit White-Label-Lösungen. Reduzieren Sie die operative Komplexität und steigern Sie gleichzeitig Margen und Kundenbindung."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Unternehmen",
+      "subtitle": "Gestalten Sie Ihre Digitale Transformation",
+      "description": "Bauen Sie private Clouds, die Compliance-Anforderungen erfüllen, Datensouveränität wahren und Vendor Lock-in reduzieren, während Sie die neueste KI-gestützte Automatisierung nutzen."
+    },
+    "government": {
+      "number": "04",
+      "title": "Regierung",
+      "subtitle": "Sicher, Souverän, Konform",
+      "description": "Erfüllen Sie die strengsten Sicherheits- und Compliance-Anforderungen mit Air-Gapped-Bereitstellungen, Datenresidenzkontrollen und umfassenden Audit-Funktionen."
+    }
+  },
+  "platform": {
+    "title": "Die Komplette Cloud-Plattform",
+    "subtitle": "Alles was Sie brauchen, um souveräne Clouds zu bauen, zu verwalten und zu skalieren",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Komplette Cloud-Management- und Abrechnungsplattform mit Self-Service-Portalen"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "KI-gestütztes Monitoring und Observability für Ihre gesamte Infrastruktur"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Enterprise-Backup und Disaster Recovery mit unveränderlichem Speicher"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "S3-kompatibler Objektspeicher mit Multi-Tenant-Unterstützung"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Intelligente Automatisierung und Einblicke durch fortschrittliche KI"
+    }
+  },
+  "features": {
+    "title": "Produktfunktionen",
+    "publicCloud": "Public Cloud as a Service",
+    "b2b": "B2C & B2B Portal",
+    "compute": "Compute & Storage Management",
+    "marketplace": "Marketplace Management",
+    "xaas": "XaaS Management"
+  },
+  "cta": {
+    "title": "Bereit, Ihre Souveräne Cloud zu Bauen?",
+    "description": "Schließen Sie sich Hunderten von Organisationen weltweit an, die StackOrbit für ihre Cloud-Infrastruktur vertrauen.",
+    "button": "Kostenlose Testversion Starten"
+  },
+  "footer": {
+    "description": "Unternehmen befähigen, souveräne Clouds mit Open-Source-Freiheit und KI-Intelligenz zu bauen.",
+    "products": "Produkte",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "about": "Über Uns",
+    "careers": "Karriere",
+    "blog": "Blog",
+    "documentation": "Dokumentation",
+    "community": "Community",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "close": "Schließen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "new": "Neu",
+    "free": "Kostenlos",
+    "popular": "Beliebt"
+  }
+}

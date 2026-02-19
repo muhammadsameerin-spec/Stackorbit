@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Costruisci il Tuo Cloud Sovrano | StackOrbit",
+    "description": "Permettere alle aziende di costruire cloud sovrani — con la libertà open-source e l'intelligenza artificiale."
+  },
+  "navigation": {
+    "platform": "Piattaforma",
+    "services": "Servizi",
+    "solutions": "Soluzioni",
+    "resources": "Risorse",
+    "company": "Azienda",
+    "support": "Supporto",
+    "partner": "Partner",
+    "contactUs": "Contattaci",
+    "bookDemo": "Prenota Demo",
+    "getStarted": "Inizia",
+    "learnMore": "Scopri di più",
+    "exploreMore": "Esplora di Più"
+  },
+  "hero": {
+    "title": "Una Piattaforma Unificata per Cloud Sovrani",
+    "description": "Permetti a ISP, MSP, CSP e Aziende di costruire, gestire e scalare piattaforme cloud sovrane con la libertà open-source e l'intelligenza artificiale.",
+    "cta": {
+      "primary": "Inizia Gratis",
+      "secondary": "Prenota una Demo"
+    }
+  },
+  "demo": {
+    "title": "Scopri la Potenza di StackOrbit",
+    "placeholder": "Chiedi a TARS qualsiasi cosa sull'infrastruttura cloud...",
+    "suggestions": {
+      "setup": "Aiutami a configurare un cloud sovrano multi-regione",
+      "migrate": "Mostrami come migrare da VMware",
+      "optimize": "Ottimizza i miei costi cloud con insight IA"
+    }
+  },
+  "solutions": {
+    "title": "Alimentare Ogni Percorso Cloud",
+    "isp": {
+      "number": "01",
+      "title": "ISP e Telco",
+      "subtitle": "Trasforma l'Infrastruttura di Rete in Ricavi Cloud",
+      "description": "Trasforma la tua infrastruttura di rete in un vantaggio competitivo. Distribuisci cloud edge, offri servizi gestiti e crea nuovi flussi di entrate con la nostra piattaforma unificata."
+    },
+    "msp": {
+      "number": "02",
+      "title": "MSP e VAR",
+      "subtitle": "Scala la Tua Pratica di Servizi Gestiti",
+      "description": "Fornisci servizi cloud di livello enterprise ai tuoi clienti con soluzioni white-label. Riduci la complessità operativa aumentando i margini e la fidelizzazione dei clienti."
+    },
+    "enterprise": {
+      "number": "03",
+      "title": "Aziende",
+      "subtitle": "Gestisci la Tua Trasformazione Digitale",
+      "description": "Costruisci cloud privati che soddisfano i requisiti di conformità, mantengono la sovranità dei dati e riducono il vendor lock-in sfruttando l'automazione IA più avanzata."
+    },
+    "government": {
+      "number": "04",
+      "title": "Governo",
+      "subtitle": "Sicuro, Sovrano, Conforme",
+      "description": "Soddisfa i requisiti di sicurezza e conformità più rigorosi con distribuzioni isolate, controlli sulla residenza dei dati e funzionalità di audit complete."
+    }
+  },
+  "platform": {
+    "title": "La Piattaforma Cloud Completa",
+    "subtitle": "Tutto ciò di cui hai bisogno per costruire, gestire e scalare cloud sovrani",
+    "stackbill": {
+      "name": "StackBill",
+      "description": "Piattaforma completa di gestione cloud e fatturazione con portali self-service"
+    },
+    "stackwatch": {
+      "name": "StackWatch",
+      "description": "Monitoraggio e osservabilità alimentati da IA per tutta la tua infrastruttura"
+    },
+    "stackvault": {
+      "name": "StackVault",
+      "description": "Backup enterprise e disaster recovery con storage immutabile"
+    },
+    "stackobject": {
+      "name": "StackObject",
+      "description": "Object storage compatibile S3 con supporto multi-tenant"
+    },
+    "tars": {
+      "name": "TARS AI",
+      "description": "Automazione intelligente e insight alimentati da IA avanzata"
+    }
+  },
+  "features": {
+    "title": "Funzionalità del Prodotto",
+    "publicCloud": "Cloud Pubblico come Servizio",
+    "b2b": "Portale B2C e B2B",
+    "compute": "Gestione Compute e Storage",
+    "marketplace": "Gestione Marketplace",
+    "xaas": "Gestione XaaS"
+  },
+  "cta": {
+    "title": "Pronto a Costruire il Tuo Cloud Sovrano?",
+    "description": "Unisciti a centinaia di organizzazioni in tutto il mondo che si affidano a StackOrbit per alimentare la loro infrastruttura cloud.",
+    "button": "Inizia la Prova Gratuita"
+  },
+  "footer": {
+    "description": "Permettere alle aziende di costruire cloud sovrani con la libertà open-source e l'intelligenza artificiale.",
+    "products": "Prodotti",
+    "company": "Azienda",
+    "resources": "Risorse",
+    "legal": "Legale",
+    "about": "Chi Siamo",
+    "careers": "Carriere",
+    "blog": "Blog",
+    "documentation": "Documentazione",
+    "community": "Community",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "copyright": "Tutti i diritti riservati."
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "close": "Chiudi",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "new": "Nuovo",
+    "free": "Gratis",
+    "popular": "Popolare"
+  }
+}
